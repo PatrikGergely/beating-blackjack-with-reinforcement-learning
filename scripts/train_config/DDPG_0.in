@@ -1,0 +1,17 @@
+{
+    "agent_name": "DDPG",
+    "strategist_name": "OptimalStrategist",
+    "hparams":
+    {
+        "policy_network_shape": [64],
+        "critic_network_shape": [4, 8],
+        "sigma": 0.2571172192068058,
+        "policy_learning_rate": 2.4800149377144643e-17,
+        "critic_learning_rate": 5.664867179427271e-13,
+        "batch_size": 16
+    },
+    "time_limit": 7200,
+    "max_episode_length": 10000,
+    "train_num_episodes": 20,
+    "eval_num_episodes": 50
+}

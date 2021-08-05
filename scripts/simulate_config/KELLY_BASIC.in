@@ -1,0 +1,9 @@
+{
+    "bettor_name": "KellyBettor",
+    "bettor_params": {},
+    "strategist_name": "BasicStrategist",
+    "max_episode_length": 10000,
+    "num_episodes": 1,
+    "simulation_id": 1,
+    "path": "./simulations"
+}

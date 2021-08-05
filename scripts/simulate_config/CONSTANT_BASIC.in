@@ -1,0 +1,9 @@
+{
+    "bettor_name": "ConstantBettor",
+    "bettor_params": {},
+    "strategist_name": "BasicStrategist",
+    "max_episode_length": 10000,
+    "num_episodes": 10,
+    "simulation_id": 1,
+    "path": "./simulations"
+}

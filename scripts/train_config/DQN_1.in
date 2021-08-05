@@ -1,0 +1,15 @@
+{
+    "agent_name": "DQN",
+    "strategist_name": "BasicStrategist",
+    "hparams":
+    {
+        "network_shape": [32, 16, 2],
+        "epsilon": 0.0225,
+        "learning_rate": 1e-06,
+        "batch_size": 256
+    },
+    "time_limit": 36000,
+    "max_episode_length": 10000,
+    "train_num_episodes": 20,
+    "eval_num_episodes": 50
+}

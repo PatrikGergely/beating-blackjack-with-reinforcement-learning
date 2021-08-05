@@ -1,0 +1,13 @@
+{
+    "bettor_name": "VectorBettor",
+    "bettor_params":
+    {
+        "shoe_size": 4,
+        "vector": [0, -1, 1, 1, 1, 1, 1, 0, 0, 0, -1, -1, -1, -1]
+    },
+    "strategist_name": "OptimalStrategist",
+    "max_episode_length": 10000,
+    "num_episodes": 10,
+    "simulation_id": 1,
+    "path": "./simulations"
+}
