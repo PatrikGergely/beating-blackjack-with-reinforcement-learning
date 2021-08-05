@@ -1,0 +1,33 @@
+{"hparams":
+            {
+                "learning_rate":
+                    {
+                        "min": -15,
+                        "max": -5
+                    },
+                "layer":
+                    {
+                        "min": 0,
+                        "max": 8,
+                        "num": 3
+                    },
+                "epsilon":
+                    {
+                        "min": 0,
+                        "max": 0.15
+                    },
+                "batch_size":
+                    {
+                        "min": 3,
+                        "max": 9
+                    }
+            },
+            "agent_name": "DQN",
+            "strategist_name": "BasicStrategist",
+            "simulation_time_limit":  1800,
+            "time_limit": 72000,
+            "max_episode_length": 10000,
+            "train_num_episodes": 5,
+            "eval_num_episodes": 15,
+            "checkpoint": "scripts/tune_config/DQN_3_30.pkl"
+        }

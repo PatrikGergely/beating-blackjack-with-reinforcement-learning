@@ -1,0 +1,44 @@
+{"hparams":
+                {
+                    "policy_learning_rate":
+                        {
+                            "min": -20,
+                            "max": -3
+                        },
+                    "critic_learning_rate":
+                        {
+                            "min": -20,
+                            "max": -3
+                        },
+                    "policy_layer":
+                        {
+                            "min": 0,
+                            "max": 8,
+                            "num": 3
+                        },
+                    "critic_layer":
+                        {
+                            "min": 0,
+                            "max": 8,
+                            "num": 1
+                        },
+                    "sigma":
+                        {
+                            "min": 0,
+                            "max": 0.5
+                        },
+                    "batch_size":
+                        {
+                            "min": 3,
+                            "max": 9
+                        }
+                },
+                "agent_name": "DDPG",
+                "strategist_name": "BasicStrategist",
+                "simulation_time_limit":  1800,
+                "time_limit": 72000,
+                "max_episode_length": 10000,
+                "train_num_episodes": 5,
+                "eval_num_episodes": 15,
+                "checkpoint": "scripts/tune_config/DDPG_3_1_30.pkl"
+            }
